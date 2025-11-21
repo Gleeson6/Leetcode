@@ -4,8 +4,8 @@ class Solution:
         
         count=0
         res=None
-        for num in nums:
+        for i in nums:
             if count==0:
-                res=num
-            count += (1 if num == res else -1)
+                res=i
+            count += (1 if i == res else -1)
         return res  
