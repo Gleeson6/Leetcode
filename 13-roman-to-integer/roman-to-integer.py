@@ -10,4 +10,4 @@ class Solution:
             else:
                 total=total+val[s[i]]
         return total            
-        
+        print(total)
