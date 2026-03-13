@@ -22,3 +22,7 @@ class Solution:
                     board[r][c] = 1 if neighbors == 3 else 0
 
         
+
+
+
+        
